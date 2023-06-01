@@ -14,7 +14,7 @@
 
         if (verifyNewListingLink()) {
             try {
-                const response = await fetch(`https://us-central1-liverpool-property.cloudfunctions.net/createNewListing?url=${url}`, {
+                const response = await fetch(`${config.apiUrl}/createNewListing?url=${url}`, {
                     method: 'GET',
                     mode: 'cors',
                 })

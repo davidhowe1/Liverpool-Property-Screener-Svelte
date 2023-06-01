@@ -7,7 +7,7 @@ Built using Svelte and Firebase, this app allows users to filter, sort, bookmark
 - [Filtering](#filtering)
 - [Bookmarking](#bookmarking)
 - [Sorting](#sorting)
-- [Add and Remove Listings](#add and remove listings)
+- [Add and Remove Listings](#add-and-remove-listings)
 - [Detailed View](#detailed-view)
 - [Dark Mode](#dark-mode)
 - [Mobile and Tablet Responsive](#mobile-and-tablet-responsive)
@@ -61,7 +61,9 @@ At the top of the application is a toolbar which allows the user to sort the ren
 
 ## Add and Remove Listings
 
-* Clicking on the 'New Listing' button in the top toolbar opens a window that allows the user to paste a rightmove link and add the listing to their dashboard of properties in the UI. The listings are available to view by clicking the 'My Listings' tab in the sidebar. Your added listings can be deleted by hovering over the listing and clicking the 'Delete' button at the top of the card image.
+* Clicking on the 'New Listing' button in the top toolbar opens a window that allows the user to paste a rightmove link and add the listing to their dashboard of properties in the UI. The listings are available to view by clicking the 'My Listings' tab in the sidebar. 
+
+* Your added listings can be deleted by hovering over the listing and clicking the 'Delete' button at the top of the card image.
 
 ## Detailed View
 

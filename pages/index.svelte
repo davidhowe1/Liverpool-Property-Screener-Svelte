@@ -17,16 +17,6 @@
     import { getDatabase, ref, onValue, remove } from 'firebase/database';
     import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
 
-    const firebaseConfig = {
-    apiKey: "AIzaSyDn3DlULdSDZ3OBGKKQctsen2YAN-idzeA",
-    authDomain: "liverpool-property.firebaseapp.com",
-    databaseURL: "https://liverpool-property-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "liverpool-property",
-    storageBucket: "liverpool-property.appspot.com",
-    messagingSenderId: "1052530352370",
-    appId: "1:1052530352370:web:00859b5ceadc6d0df0306b"
-    };
-
     let username = 'demo@google.com';
     let password = 'democredentials123';
     let loggedInUser = localStorage.getItem('user');
